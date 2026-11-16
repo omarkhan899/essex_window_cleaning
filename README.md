@@ -25,7 +25,6 @@ The quote endpoint validates fields and uses a honeypot. The form displays a cal
 - Confirm the production domain, enquiry inbox, sender identity and telephone number. The number currently comes from the supplied business materials. Shared business identity and contact settings are in `src/lib/business.ts`.
 - Review the privacy notice with Aaron and complete it with his retention periods, lawful basis, applicable rights, provider and transfer details, and confirmed contact information before accepting online enquiries. Review analytics disclosures if enabling GA4.
 - Confirm service coverage, social profile links, and whether gutter cleaning is offered. The current pages describe Braintree and the surrounding area, and the services list excludes gutter cleaning.
-- Confirm Aaron’s permission before publishing his son’s photo. The homepage and About page preview both photos under Our Story when running `npm run dev` with `.local/aaron-son-window-cleaning.webp` present. The file is ignored by Git and stored outside `public/`. Production builds show Aaron’s photo alone.
 
 ## Photography
 
@@ -37,6 +36,7 @@ The source files were supplied as attachments and were available at their attach
 | `hero/aaron-window-cleaning.webp` | `codex-clipboard-b70ddf04-1826-4644-9df9-d89f791fb7fe.png` (brief’s `image(1).png`, used for domestic services) |
 | `hero/aaron-social.jpg` | 1200 × 630 sharing crop of the same hero source |
 | `about/aaron-at-work.webp` | `codex-clipboard-c2180123-9a44-4ab5-852e-5b80b5cd03e8.png` |
+| `about/aaron-son-window-cleaning.webp` | `WhatsApp Image 2026-11-16 at 5.13.34 PM (1).jpeg`, approved for Our Story on the homepage and About page |
 | `services/water-fed-pole.webp` | `codex-clipboard-4d832d04-cb1f-4ec7-9f3f-e7e6438afc9d.png` |
 | `services/pressure-washing-site.webp` | `WhatsApp Image 2026-11-15 at 10.21.07 PM.jpeg` |
 | `services/cleaning-van.webp` | `WhatsApp Image 2026-11-15 at 10.21.08 PM.jpeg` |
@@ -53,4 +53,4 @@ The two comparison pairs show the same windows at different angles. The red-bric
 
 The fascia photos show the same trim, bracket and screw. The homepage comparison shows the cleaned section from two angles. The commercial forecourt photos match by the shopfront, barriers and bay markings, but the angles and wet paving make a completed result harder to establish. The gallery uses an equipment-on-site view of that job.
 
-The other house and ladder views, business flyer photo, forecourt collage, and social screenshot were reviewed. The selected images give clearer views of Aaron’s methods and the results. The original family photo for future publication is `WhatsApp Image 2026-11-16 at 5.13.34 PM (1).jpeg`, subject to permission.
+The other house and ladder views, business flyer photo, forecourt collage, and social screenshot were reviewed. The selected images give clearer views of Aaron’s methods and the results.

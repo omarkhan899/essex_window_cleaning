@@ -2,6 +2,7 @@ export const photos = {
   generatedHero: { src: '/images/hero/aaron-window-cleaning-hero.webp', alt: 'AI-edited image based on a photo of Aaron, showing him in orange gloves cleaning an exterior window' },
   hero: { src: '/images/hero/aaron-window-cleaning.webp', alt: 'Aaron using a water-fed pole to clean a ground-floor window at a brick house' },
   aaron: { src: '/images/about/aaron-at-work.webp', alt: 'Aaron looking up as he guides a window-cleaning pole' },
+  aaronSon: { src: '/images/about/aaron-son-window-cleaning.webp', alt: 'Aaron’s son trying a window-cleaning pole' },
   pole: { src: '/images/services/water-fed-pole.webp', alt: 'Aaron extending a water-fed pole towards upper windows from ground level' },
   van: { src: '/images/services/cleaning-van.webp', alt: 'Aaron’s red van with a water system, hose reel and window cleaning caution signs' },
   pressure: { src: '/images/services/pressure-washing-site.webp', alt: 'Pressure washing equipment and caution signs outside a commercial property' },

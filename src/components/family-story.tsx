@@ -1,20 +1,13 @@
-import { existsSync, readFileSync } from 'node:fs';
-import { join } from 'node:path';
 import type { ReactNode } from 'react';
 import { photos } from '@/lib/photos';
 import { PhotoFrame } from './site';
 
 export function FamilyStory({ children }: { children?: ReactNode }) {
-  const familyPhotoPath = join(process.cwd(), '.local', 'aaron-son-window-cleaning.webp');
-  const familyPhoto = process.env.NODE_ENV === 'development' && existsSync(familyPhotoPath)
-    ? { src: 'data:image/webp;base64,' + readFileSync(familyPhotoPath).toString('base64'), alt: 'Aaron’s son trying a window-cleaning pole' }
-    : null;
-
   return <section className="wrap block story">
-    {familyPhoto ? <div className="story-photo-pair">
+    <div className="story-photo-pair">
       <PhotoFrame photo={photos.aaron} className="story-photo" sizes="(max-width: 820px) 48vw, (max-width: 1454px) 22vw, 295px" />
-      <PhotoFrame photo={familyPhoto} className="story-family-photo" />
-    </div> : <PhotoFrame photo={photos.aaron} className="story-photo" />}
+      <PhotoFrame photo={photos.aaronSon} className="story-family-photo" sizes="(max-width: 820px) 43vw, (max-width: 1454px) 21vw, 275px" />
+    </div>
     <div>
       <p className="eyebrow">Our story</p>
       <h2>I started this for my family.</h2>
