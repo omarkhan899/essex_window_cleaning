@@ -7,7 +7,7 @@ import { CallLink, HeaderMenu } from './interactive';
 
 export function Brand() {
   return <Link href="/" className="brand" aria-label={business.name}>
-    <Image className="brand-logo" src="/images/brand/essex-window-cleaning-logo.webp" alt="" width={60} height={60} sizes="(max-width: 900px) 42px, 60px" />
+    <Image className="brand-logo" src="/images/brand/essex-window-cleaning-logo.webp" alt="" width={68} height={68} sizes="(max-width: 980px) 48px, 68px" />
     <span>ESSEX<span className="brand-small">WINDOW CLEANING COMPANY</span></span>
   </Link>;
 }
